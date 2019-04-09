@@ -1,0 +1,9 @@
+# mac 系统文件或文件夹
+# 删除远程文件: git rm -r --cached .idea
+
+.DS_Store
+.idea/
+/.idea/
+
+# 本地git工具脚本
+git.sh
