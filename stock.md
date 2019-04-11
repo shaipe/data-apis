@@ -139,3 +139,13 @@ https://xueqiu.com/stock/forchartk/stocklist.json?symbol=代码&period=1day&type
 
 https://xueqiu.com/stock/forchartk/stocklist.json?symbol=SH600756&period=1day&type=before&begin=1478620800000&end=1510126200000&_=1510126200000
 
+1.2 Baidu&Google的财经数据
+在baidu, 
+google中搜索某只股票代码时，将会在头条显示此股票的相关信息，例如在google搜索601006时，
+第一条搜索结果如下图：
+通过点击左边的图片我们发现会将此图片链接到sina财经频道上，也就是说google股票数据的获取也是从sina获取。后经抓包分析，发现google也是采用1.1中介绍的接口。
+
+Baidu的股票数据来自baidu的财经频道
+http://stock.baidu.com/
+
+
